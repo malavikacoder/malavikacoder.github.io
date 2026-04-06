@@ -1,20 +1,150 @@
-<!doctype html>
-<html>
-  <head>
-    <title>Malavikas page Title</title>
-  </head>
-  <body>
-    <h1>This is a Heading</h1>
+<!DOCTYPE html><html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
 
-    <p>
-      hello world <br />
-      by malootty
-    </p>
-  </body>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap&quot; rel="stylesheet">
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins',sans-serif;
+}
+
+body{
+  background:lavender;
+  color:solid black;
+}
+
+/* HERO SECTION */
+.hero{
+  height:50vh;
+  background:linear-gradient(to right,purple,violet,purple);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+  text-align:center;
+  color:solid black;
+}
+
+.hero img{
+  width:200px;
+  height:150px;
+  border-radius:50%;
+  border:4px solid #fff;
+  margin-bottom:15px;
+}
+
+.hero h1{
+  font-size:2.5rem;
+}
+
+.hero p{
+  font-size:1.2rem;
+  opacity:0.9;
+}
+
+/* SECTION */
+section{
+  padding:60px 20px;
+  max-width:900px;
+  margin:auto;
+}
+
+h2{
+  text-align:center;
+  margin-bottom:30px;
+  color:solid black;
+}
+
+/* ABOUT */
+.about{
+  text-align:center;
+  line-height:1.8;
+}
+
+/* SKILLS */
+.skills{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:15px;
+}
+
+.skill{
+  background:purple;
+  color:#fff;
+  padding:10px 20px;
+  border-radius:20px;
+  transition:0.3s;
+}
+
+.skill:hover{
+  background:violet;
+  transform:scale(1.1);
+}
+
+/* CONTACT */
+.contact{
+  text-align:center;
+}
+
+/* FOOTER */
+footer{
+  background:purple;
+  color:#fff;
+  text-align:center;
+  padding:15px;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- HERO -->
+<div class="hero">
+  <img src=""; alt="Profile Photo">
+  <h1>MALAVIKA B M</h1>
+  <p>Aspiring Web Developer 🚀</p>
+</div>
+
+<!-- ABOUT -->
+<section>
+  <h2>About Me</h2>
+  <p class="about">
+   Hello! I am Malavik B M and this year I am going to 8th std.I also have a little brother.I love drawing and playing games especially with my friends.I am shorter than most people in 8th but I don't mind that I like the way i am.I have long silky straight black hair,even though i am short and small people love my hair.i love making dress for my old dolls,give them new hairstyles etc,so I decided to be a fashion designer when i am older,currently I make bracelets,earrings and necklaces and sell them.So if you ever want to buy one just contact me. 
+  </p>
+</section>
+
+<!-- SKILLS -->
+<section>
+  <h2>My Skills</h2>
+  <div class="skills">
+    <div class="skill">HTML</div>
+    <div class="skill">CSS</div>
+    <div class="skill">JavaScript</div>
+    <div class="skill">GitHub</div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section>
+  <h2>Contact Me</h2>
+  <div class="contact">
+    <p>Email: bm.malavika@gmail.com</p>
+    <p>Phone: +91 9446406699</p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>©  2026 Malavika B M | Website 1 🌐</p>
+</footer>
+
+</body>
 </html>
-
-<!-- command to view html preview in vscode Ctrl + Shift + V -->
-<!--  commands to update site
- git add .
- git commit -m "updated site"
- git push -->
